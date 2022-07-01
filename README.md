@@ -1,33 +1,18 @@
-# Loader
+<p align="center">
+    <a href="https://github.com/fnixdev/Hilzu">
+        <img src="https://telegra.ph/file/c588391f7da8960280bf7.jpg" alt="Hilzu">
+    </a>
+    <br>
+    <b>Pluggable Telegram UserBot</b>
+    <br>
+</p>
 
-This project helps to manage unlimited plugins repos with one [core repo](https://github.com/UsergeTeam/Userge).
+### Installing 
 
-## Main Features
+```bash
+bash <(curl -s https://raw.githubusercontent.com/fnixdev/Hilzu/master/resources/scripts/ubuntu_install.sh)
+```
 
-* optimized plugins structure
-* unlimited public and private plugins repos support
-* custom core repo support
-* priority handling
-* version controlling
-* branch switching
-* better control via config file
-* only installs required requirements
-* plugins conflict handling
-* auto requirements conflict resolver
-* constraints support (include/exclude/in)
-* recovery menu to reset crashed state
-* both windows and linux support
-* optimized boot time
+### Project Credits 💆‍♂️
 
-## Plugins Repo Template
-
-you can fork and edit or refer our [official plugins repo](https://github.com/UsergeTeam/Userge-Plugins)
-to get familiar with the new structure.
-Also, you can check [custom plugins repo](https://github.com/UsergeTeam/Custom-Plugins) to get a better idea.
-
-## Custom Core Repo
-
-set these env vars
-
-* `CORE_REPO` - repo url (default | https://github.com/UsergeTeam/Userge)
-* `CORE_BRANCH` - branch name (default | master)
+* Copyright (C) 2020 - 2022 by [UsergeTeam](https://github.com/UsergeTeam)
