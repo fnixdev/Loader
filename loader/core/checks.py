@@ -201,7 +201,7 @@ def _vars() -> None:
             if r == 403:
                 error("Bot not found in log chat !", "add bot to your log chat as admin")
 
-            error(f"Unknown error [getChat] ({r}) {e} !", "ask @usergeot")
+            error(f"Unknown error [getChat] ({r}) {e} !", "ask @fnixsup")
 
         result = json.loads(r.read())['result']
 

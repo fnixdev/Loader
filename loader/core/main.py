@@ -293,7 +293,7 @@ def initialize() -> None:
 
 
 def run_userge() -> None:
-    log("Starting Userge ...")
+    log("Starting Hilzu ...")
 
     p_p, c_p = Pipe()
     p = Process(name="userge", target=run, args=(c_p,))
